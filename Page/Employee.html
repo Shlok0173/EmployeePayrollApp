@@ -16,8 +16,9 @@
                 <span class="emp-text">EMPLOYEE</span><br>
                 <span class="emp-text emp-payroll">PAYROLL</span>
             </div>
+            </div>
         </header>
-        </div>
+
            <div class ="form-content">
           <form class="form" action="#" onsubmit="save();return false">
             <div class="form-head">Employee Payroll form</div>
@@ -50,6 +51,15 @@
              </div>
             </div>
             
+            <div class="row-content">
+                <label for="gender" class="label text">Gender</label>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male" class="text">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female" class="text">Female</label>
+                </div>
+            </div>
             <div class="row-content">
                 <label for="department" class="label text">Department</label>
                 <div>
@@ -132,6 +142,20 @@
                         <option value="2017">2017</option>
                         <option value="2016">2016</option>
                     </select>
+                 </div>
+                </div>
+                 <div class="row-content">
+                    <label for="notes" class="label text">Notes</label>
+                    <textarea name="Notes" id="notes" class="input" placeholder="" style="height: 100px"></textarea>
+                  </div>
+                <div class="buttonParent">
+                    <a href="./homePage.html" class="resetButton button cancelButton">Cancel</a>
+                    <div class="submit-reset">
+                        <button type="submit" class="button submitButton" id="submitButton">Submit</button>
+                        <button type="reset" class="resetButton button">Reset</button>
+
+                </div>
+                </div>
                 </div>
           </form>
            </div>
